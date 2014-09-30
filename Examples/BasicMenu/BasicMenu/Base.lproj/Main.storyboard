@@ -15,7 +15,7 @@
                         <sections>
                             <tableViewSection id="ndH-yJ-uSP">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="hsq-Ed-bno" style="IBUITableViewCellStyleDefault" id="QlK-6Z-IXB">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell1" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" textLabel="hsq-Ed-bno" style="IBUITableViewCellStyleDefault" id="QlK-6Z-IXB">
                                         <rect key="frame" x="0.0" y="35" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QlK-6Z-IXB" id="hOT-Iv-M0l">
@@ -32,10 +32,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YZN-Rg-WYX" kind="custom" customClass="ECSlidingSegue" id="dkg-Sx-pOX"/>
+                                            <segue destination="YZN-Rg-WYX" kind="custom" identifier="ToRed" customClass="ECSlidingSegue" id="wNL-5S-AsH"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="1" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gA9-0u-hqn" style="IBUITableViewCellStyleDefault" id="0Rk-oW-Q40">
+                                    <tableViewCell tag="1" contentMode="scaleToFill" restorationIdentifier="Cell2" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" textLabel="gA9-0u-hqn" style="IBUITableViewCellStyleDefault" id="0Rk-oW-Q40">
                                         <rect key="frame" x="0.0" y="79" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Rk-oW-Q40" id="OKo-hR-NpL">
@@ -52,10 +52,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YZN-Rg-WYX" kind="custom" customClass="ECSlidingSegue" id="lwl-RR-h0Q"/>
+                                            <segue destination="YZN-Rg-WYX" kind="custom" identifier="ToBlue" customClass="ECSlidingSegue" id="lwl-RR-h0Q"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="2" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="3yc-ov-Jrr" style="IBUITableViewCellStyleDefault" id="6BH-Pt-zYG">
+                                    <tableViewCell tag="2" contentMode="scaleToFill" restorationIdentifier="Cell3" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" textLabel="3yc-ov-Jrr" style="IBUITableViewCellStyleDefault" id="6BH-Pt-zYG">
                                         <rect key="frame" x="0.0" y="123" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6BH-Pt-zYG" id="H6v-Oj-WP3">
@@ -72,10 +72,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YZN-Rg-WYX" kind="custom" customClass="ECSlidingSegue" id="YcJ-P5-foE"/>
+                                            <segue destination="YZN-Rg-WYX" kind="custom" identifier="ToGreen" customClass="ECSlidingSegue" id="YcJ-P5-foE"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="3" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="BPG-hI-wWS" style="IBUITableViewCellStyleDefault" id="3kM-VL-o0k">
+                                    <tableViewCell tag="3" contentMode="scaleToFill" restorationIdentifier="Cell4" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" textLabel="BPG-hI-wWS" style="IBUITableViewCellStyleDefault" id="3kM-VL-o0k">
                                         <rect key="frame" x="0.0" y="167" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3kM-VL-o0k" id="PVc-eQ-9s9">
@@ -92,10 +92,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YZN-Rg-WYX" kind="custom" customClass="ECSlidingSegue" id="LbF-RV-Xpg"/>
+                                            <segue destination="YZN-Rg-WYX" kind="custom" identifier="ToYellow" customClass="ECSlidingSegue" id="LbF-RV-Xpg"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell tag="4" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="fev-qd-q9d" style="IBUITableViewCellStyleDefault" id="Q7I-zR-p9g">
+                                    <tableViewCell tag="4" contentMode="scaleToFill" restorationIdentifier="Cell5" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CellIdentifier" textLabel="fev-qd-q9d" style="IBUITableViewCellStyleDefault" id="Q7I-zR-p9g">
                                         <rect key="frame" x="0.0" y="211" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Q7I-zR-p9g" id="sWR-p4-gYi">
@@ -112,7 +112,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YZN-Rg-WYX" kind="custom" customClass="ECSlidingSegue" id="3RR-e0-aiv"/>
+                                            <segue destination="YZN-Rg-WYX" kind="custom" identifier="ToPurple" customClass="ECSlidingSegue" id="3RR-e0-aiv"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -123,6 +123,7 @@
                             <outlet property="delegate" destination="F6a-MU-Um8" id="XaY-i7-fbj"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="QOI-pa-Bj8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffk-Za-bT6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,7 +132,7 @@
         <!--View Controller - Home-->
         <scene sceneID="HcY-HC-t1g">
             <objects>
-                <viewController id="87u-ZJ-49t" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllor" id="87u-ZJ-49t" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S4H-Ct-Kq4"/>
                         <viewControllerLayoutGuide type="bottom" id="Ig8-GA-DwW"/>
@@ -141,10 +142,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="7va-ve-X7O">
+                    <navigationItem key="navigationItem" title="Home" id="7va-ve-X7O" userLabel="Navigation Item - home">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="gDy-hb-lIv">
                             <connections>
-                                <segue destination="LMD-nb-ePp" kind="unwind" unwindAction="unwindToMenuViewController:" id="ocx-C1-69Z"/>
+                                <segue destination="LMD-nb-ePp" kind="unwind" unwindAction="unwindToMenuViewController:" id="sa4-g8-Fib"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -152,7 +153,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUV-BV-bVQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="LMD-nb-ePp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="829" y="894"/>
+            <point key="canvasLocation" x="803" y="894"/>
         </scene>
         <!--Sliding View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -201,6 +202,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="dkg-Sx-pOX"/>
+        <segue reference="wNL-5S-AsH"/>
     </inferredMetricsTieBreakers>
 </document>

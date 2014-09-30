@@ -22,23 +22,23 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface MEMenuViewController : UITableViewController{
+@interface MEMenuViewController : UITableViewController<UIPopoverControllerDelegate,UISplitViewControllerDelegate>{
     
-    //NSString* myValue1;
     UIImageView * _iv;
     CGPoint touchPoint;
-    //CGFloat red;
-    //CGFloat green;
-    //CGFloat blue;
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
     
     
 }
-//@property (nonatomic) CGFloat red;
-//@property (nonatomic) CGFloat green;
-//@property (nonatomic) CGFloat blue;
+@property (nonatomic) CGFloat red;
+@property (nonatomic) CGFloat green;
+@property (nonatomic) CGFloat blue;
 
-@property (nonatomic) NSString* myValue1;
+//@property (nonatomic) NSString* myValue1;
 
 - (IBAction)unwindToMenuViewController:(UIStoryboardSegue *)segue;
 

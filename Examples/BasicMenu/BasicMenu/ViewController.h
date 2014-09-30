@@ -11,8 +11,18 @@
 //#import "ViewControllor.m"
 
 
-@interface ViewController : UIViewController{
+@interface ViewController : UIViewController<UIPopoverControllerDelegate,UISplitViewControllerDelegate>{
     UIImageView *_iv;
+    CGPoint touchPoint;
+    
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
+
 }
+@property UIImage *picture;
+@property (nonatomic) CGFloat red;
+@property (nonatomic) CGFloat green;
+@property (nonatomic) CGFloat blue;
 
 @end
